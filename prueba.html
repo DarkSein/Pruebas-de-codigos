@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas de zapatilla</title>
+        <link rel="stylesheet" href="styilees.css">
+        <script src="prueba.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Ventas de zapatilla</h1>
+    </header>
+    <main>
+        <section class="productos">
+            <article class="producto" data-id="1">
+                <img src="zapatilla.jpg" alt="Zapatilla">
+                <h2>Zapatilla buena</h2>
+                <p>Hermoso jarrón hecho a mano con técnicas tradicionales.</p>
+                <p class="precio">$49.99</p>
+                <button onclick="agregarAlCarro(1)">Añadir al Carro</button>
+                <button onclick="mostrarDetalles(1)">Ver Detalles</button>
+            </article>
+            <article class="producto" data-id="2">
+                <img src="vans.jpg" alt="Collar artesanal">
+                <h2>Collar Artesanal</h2>
+                <p>Elegante collar hecho con piedras naturales y plata.</p>
+                <p class="precio">$79.99</p>
+                <button onclick="agregarAlCarro(2)">Añadir al Carro</button>
+                <button onclick="mostrarDetalles(2)">Ver Detalles</button>
+            </article>
+            <article class="producto" data-id="3">
+                <img src="/placeholder.svg?height=200&width=200" alt="Tapiz tejido">
+                <h2>Tapiz Tejido</h2>
+                <p>Colorido tapiz tejido a mano con lana natural.</p>
+                <p class="precio">$129.99</p>
+                <button onclick="agregarAlCarro(3)">Añadir al Carro</button>
+                <button onclick="mostrarDetalles(3)">Ver Detalles</button>
+            </article>
+            <article class="productoss" data-id="4"></article>
+                <img src="" alt="Prueba">
+                <h2>xxxx</h2>
+                <p>Colorido tapiz tejido a mano con lana natural.</p>
+                <p class="precio">$129.99</p>
+                <button onclick="agregarAlCarro(3)">Añadir al Carro</button>
+                <button onclick="mostrarDetalles(3)">Ver Detalles</button>
+            </article>
+        </section>
+    </main>
+
+    <div id="cesta">
+        Carro: <span id="cantidadCarro">0</span> items
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitulo"></h2>
+            <img id="modalImagen" src="" alt="">
+            <p id="modalDescripcion"></p>
+            <p id="modalPrecio"></p>
+        </div>
+    </div>
+
+    <script>
+      
+    </script>
+</body>
+</html>
